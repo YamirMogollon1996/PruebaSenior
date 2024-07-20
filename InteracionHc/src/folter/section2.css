@@ -1,0 +1,140 @@
+.seccion2 {
+  /* border: 1px solid blue; */
+  padding: 1em;
+  width: 100%;
+  margin: auto;
+  /* height: 100vh; */
+  /* margin-bottom: 3em; */
+}
+.Seco {
+  color: rgb(116, 182, 182);
+  font-size: 3em;
+  margin-top: 1.5em;
+  margin-left: 50px;
+}
+.ImagenesCenter {
+  width: 300px;
+  height: 450px;
+  position: relative;
+
+  /* position: fixed; */
+}
+
+.Cellnivel {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.ImagenesCenter {
+  border-radius: 5px;
+  padding: 2em;
+  transition: all 0.4s ease-in-out;
+}
+
+.FloatImagenes {
+  position: absolute;
+  background-color: #c5b609;
+
+  bottom: 0;
+  right: 0;
+  padding: 1.7em;
+  border-radius: 4px;
+  color: rgb(34, 13, 226);
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.title_Center {
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  letter-spacing: 5px;
+}
+c .container_parraafo {
+  color: whitesmoke;
+}
+.ImagenesCenter:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: -1px 3px 4px 4px #e5e50d;
+}
+.Cellnivel {
+  padding: 2em;
+  /* border: 1px solid black; */
+}
+
+.meter {
+  width: 100%;
+  margin: 40px auto;
+  /* border: 1px solid black; */
+}
+.Cellnivel > * {
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.CellNivel_denter {
+  /* border: 1px solid black; */
+  width: 90%;
+  background-color: rgb(116, 182, 182);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 1% 60%, 0% 0%);
+  padding: 1em;
+}
+
+.CellNivel_denter__imagen {
+  height: 225px;
+  width: 200px;
+  border-radius: 10px;
+}
+.CellNivel_denter {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.CellNivel_denter :nth-child(2) {
+}
+.CellNivel_denter button {
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #e0dce2;
+  color: whitesmoke;
+  border: none;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: black;
+}
+
+.Cellnivel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  gap: 30px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .Cellnivel {
+    /* border: 1px solid rgb(8, 8, 3); */  border: 1px solid rgba(233, 227, 227, 0.685);
+
+    width: 100%;
+  }
+  .meter {
+    border: 1px solid rgb(8, 41, 230);
+    width: 100%;
+  }
+
+  .CellNivel_denter {
+    width: 100%;
+    padding: 2em;
+    margin: 2em;
+  }
+}

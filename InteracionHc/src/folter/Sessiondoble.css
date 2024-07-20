@@ -1,0 +1,7 @@
+.GridSession{
+
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 50% 50% ; 
+    place-items: center;
+}

@@ -1,0 +1,67 @@
+.section3 {
+  margin-bottom: 3em;
+
+  /* height: 100vh; */
+  width: 100%;
+  /* display: flex; */
+  /* background-color: #0e6438; */
+}
+.seccion3_denter {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  color: rgb(116, 182, 182);
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  place-items: center;
+  place-content: center;
+  margin-top: 4em;
+}
+.Named_TT {
+  /* border: 1PX solid black; */
+  width: 80%;
+  margin: auto;
+  color: rgb(116, 182, 182);
+  font-size: 1.4em;
+}
+/* .ContainerImages{
+    width: 40px;
+} */
+.ContainerImages {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgb(221, 211, 211);
+  margin: 1em;
+  border-radius: 10px;
+  position: relative;
+}
+.imagendentro {
+  height: 300px;
+  width: 397px;
+  background-size: cover;
+  background-position: center;
+}
+.ContainerImages_parrafo {
+  margin-top: 1em;
+  color: black;
+}
+
+.Section_footer {
+  /* border: 1px solid black; */
+  position: absolute;
+  /* top: 0; */
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4em;
+  box-shadow: -2px 3px 24px 10px rgba(238, 232, 232, 0.75);
+}
+
+.ContainerImages:hover {
+  border: 2px solid rgb(116, 182, 182);
+    box-shadow: -2px 3px 24px 10px rgba(238, 232, 232, 0.75);
+}

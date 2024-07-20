@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+   font-family: "Ubuntu", sans-serif;
+  box-sizing: none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.named {
+  height: 200px;
+}
+
+.Render_APP_DETAILS {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  border-radius: 1px solid gray;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Render_APP_DETAILS button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: whitesmoke;
+  border: none;
+  margin: 1em;
+}
+
+.btnbutonBootrap {
+  background-color: seagreen;
+  color: whitesmoke;
+  padding: 1em;
+  margin: 1em;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  text-align: center;
+}
+
+.TextCenter {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #d1d1d6;
+  color: grey;
+  padding: 0.3em;
+  text-align: center;
+  transition: margin 0.5s ease-in-out;
+}
+.GridSession div {
+  height: 100%;
+}
+.GridSession {
+  padding: 3em;
+}
+
+.gridToodos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.TextCenter:hover {
+  margin-right: 40px;
+}
+img {
+  max-width: 100%;
+}

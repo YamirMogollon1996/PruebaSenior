@@ -1,0 +1,203 @@
+.GridPos {
+  /* border: 1px solid yellow; */
+  width: 90%;
+  margin: auto;
+
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
+}
+ .TitleSeries{
+
+  margin-left: 60px;
+  font-size: 2em;
+  color: white;
+ }
+.TitleCardContainer {
+  border: 1px solid black;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.IgemDiv_centro {
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.titleSessiones {
+  text-align: right;
+  margin: 0;
+  letter-spacing: 20px;
+}
+.titleSessiones::first-letter {
+  font-size: 2em;
+  margin: 0;
+}
+.Card-Denter-imagen {
+}
+.CenterDivOutput {
+  font-size: 3em;
+  color: whitesmoke;
+  margin: 1em;
+}
+.OutCenterGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  gap: 20px;
+}
+
+.GridPos {
+  display: flex;
+  width: 200%;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+.GridContainerCenter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* padding: 1em; */
+}  
+
+.Faplay{
+  font-size: 1.5em;
+  color: rgba(224, 224, 17, 0.5) ; 
+  cursor: pointer;
+}
+.Faplay:hover{
+  transform: translateY(-5px);
+  transition: all 1s ease;
+} 
+
+.imagenes:hover {
+/* 
+  border: 1px solid red; */
+}
+ 
+.Peliculas{
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  color: white;
+  background-color: rgb(0, 0, 0,.5);
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(100px);
+  transition: all .5s ease-in-out;
+}   
+.imagenes:hover .Peliculas { 
+    transform: translateY(0px);
+
+}
+.imagenes {
+  margin-top: 1em;
+  width: 400px;
+  max-width: 300px;
+  min-width: 100px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 1em;
+  position: relative;
+  left: 0;
+  overflow: hidden;
+  max-width: 400px;
+  /* border: 1px solid rgb(226, 15, 15); */
+  /* min-width: 30% */
+}
+
+.OutCenterGrid div {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.TitleCardContainer div {
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 2em;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out;
+}
+.TitleCardContainer div:hover {
+  opacity: 1;
+}
+
+.TitleCardContainer div:nth-child(1) {
+  /* grid-row-start: 3; */
+  grid-column: 2;
+  /* border: 1px solid whitesmoke; */
+  background-size: cover;
+  grid-column: span 2;
+  background-position: center;
+}
+.TitleCardContainer div:nth-child(2) {
+  grid-row: span 2;
+  /* height: 600px; */
+  height: 100%;
+}
+.TitleCardContainer div:nth-child(3) {
+  /* background-color: red; */
+}
+.TitleCardContainer div:nth-child(4) {
+  /* border: 1px solid red; */
+}
+
+.imagenWdith {
+  /* border: 1px solid red; */
+  width: 500px;
+  height: 300px;
+  /* border-radius: 10px; */
+  object-fit: cover;
+  object-position: top;
+  border: none;
+  border-radius: 15px;
+}
+.blackColor {
+  /* padding: 1em; */
+  background-color: black;
+  place-content: center;
+  place-items: center;
+  /* gap: 10px; */
+  overflow: hidden;
+}
+.Raya {
+  /* border: 1px solid red; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.Boltuno {
+  height: 15px;
+  width: 15px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-left: 1em;
+  cursor: pointer;
+  border: none;
+}
+
+/*  
+.Boltuno::a{
+  background-color: red;
+}  */
+.imagenes{
+
+  min-width: 300px;
+}

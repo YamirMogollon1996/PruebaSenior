@@ -1,0 +1,114 @@
+.UrlDetoke{
+position: relative;
+}
+
+.RayaCenter{
+    
+    display: flex;
+    padding:  2em 2em;
+    color: white;
+} 
+
+
+
+.RayaCenter div:nth-child(1){
+ 
+        width: 40%;
+        padding: 2em;
+        font-family: 900px;
+        
+}
+.RayaCenter div:nth-child(2){
+       
+        width: 60%;
+        text-align: center;
+        text-align: right;
+        color: rgb(182, 173, 173);
+        /* border: 1px solid orangered; */
+        text-align: right;
+        padding-left: 200px;
+        
+}
+
+.flexStart{
+        display: flex;
+        /* border: 1px solid black; */
+        float: right;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        flex-direction: column;
+}
+
+.Califications{
+        list-style: none;
+        font-size: .6em;
+}
+
+.star{
+        color: #efec55;
+        /* box-shadow: 0 0 20px whitesmoke; */
+}  
+.Barra_div{
+
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.322);
+        padding: 1em;
+}
+
+.imagenesTo{
+
+        object-fit: cover;
+        z-index: 1000;
+        width: 500px;
+        height: 300px;        
+        border-radius: 20px;
+        /* border: 1px solid white; */
+        box-shadow: 0 0 20px whitesmoke;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+}
+.TitleForm{
+  
+        background-color:  rgba(0, 0, 0, 0.274);
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1em;
+        z-index: 1000;
+        padding: .5em;
+
+                }
+
+
+.fontIcono{
+        font-size: 4em;
+        position: absolute;
+        top: 40%;
+        opacity: 0;
+        /* animation: slidein  1s ease-in-out ; */
+          /* transform: translateY(180px); */
+        /* opacity: 0; */
+}
+
+@keyframes slidein {
+  from {
+        transform: translateY(180px);
+}
+
+  to {
+ transform: translateY(0px);
+
+        }
+}
+
+.imagenesTo:hover  .fontIcono{
+
+                        opacity: 1;
+                        cursor: pointer;
+                        animation: slidein .3s ease-in forwards   ;
+}

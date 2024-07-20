@@ -1,0 +1,63 @@
+.classic{ 
+        margin-bottom: 2em;
+    border: 1px solid rgb(150, 146, 146);
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    gap: 20PX;
+    place-content: center;
+    place-items: center;
+} 
+.flex{
+
+    display: flex;
+    gap: 20px;
+}
+.ContainerBotones{
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+@media screen  and ( max-width : 700px) {
+          .classic  {
+      
+                 width: 90%;
+
+          }
+}
+
+@media screen  and ( max-width : 340px) {
+          .classic  {
+                 /* border: 1px solid red; */
+                 width: 100%;
+
+          }
+}
+.TooltikContainer{
+
+    display: grid;
+    border: 1px solid rgb(148, 142, 142);
+    grid-template-columns: repeat(7,1fr);
+    width: 70%;
+    margin: auto;
+    place-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+.codde{ 
+        
+
+    
+height: 100vh;
+
+}

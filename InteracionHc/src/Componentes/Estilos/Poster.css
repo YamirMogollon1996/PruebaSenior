@@ -1,0 +1,169 @@
+.FormualrioClase {
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Polsession{
+  font-size: .3em;
+}
+.imagenSingle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-position: top center;
+  transition: all 1s ease-in-out;
+  z-index: 100;
+}  
+.Grande{
+  border: 1px solid yellow;
+}
+.imagenesDenter {
+  border: 1px solid red;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  /* width: 200%; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+.imagenSingle {
+  border-radius: 10px;
+}
+
+.imagenSingle:hover {
+  transform: scale(1.2);
+  border: 2px solid whitesmoke;
+}
+.imagenSingle:hover.FormualrioClase {
+  filter: blur(0);
+}
+
+.CenterDivLetras {
+
+border: 1px solid red;
+  width: 30%;
+  color: whitesmoke;
+  margin-left: 100px;
+  /* background-color: rgba(2, 8, 22, 0.788); */
+  position: absolute;
+  color: black;
+  font-weight: 900;
+  left: 0;
+  top: 10%;
+  z-index: 2;
+  font-family: "Wittgenstein", serif;
+  color: white;
+  font-family: 900;
+  font-size: 3em;
+  color: rgb(214, 210, 210);
+  padding: 0.5em;
+  padding: 1em;
+  /* box-shadow: 0 0 20px rgb(245, 236, 236); */
+  border-radius: 10px;
+  animation: slidein .5s ease-in-out;
+
+  
+}
+.Divcontainer {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 1em;
+}
+
+.RayaTtitle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title_pequeño {
+  font-size: 12px;
+  background-color: gray;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-left: 0.5em;
+}
+.childrenTexto {
+  font-size: 0.4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}  
+.cabeza{
+    /* border: 1px solid white; */
+    width: 100%;
+    /* top: 0; */
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    z-index: 2;
+    /* border: 1px solid red; */
+} 
+.cabezaFontr{
+    /* border: 1px solid white; */
+    display: flex;
+    color: gray;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+    
+}    
+.logos{
+    color: whitesmoke;
+}
+.cabezaFontr p:hover{
+    color: gainsboro;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+.Butonbuscas{
+    background-color: rgba(14, 13, 13, 0.911);
+    padding: 1em;
+    border-radius: 10px;
+    color: gray;
+    outline: none;
+    width: 15%;
+    color: whitesmoke;
+    
+   
+}  
+.CameraRocket{
+  font-size:3em;
+  color: rgb(247, 239, 239);
+  cursor: pointer;
+}  
+.Prveis{
+  font-size: 2em;
+  color: whitesmoke;
+  cursor: pointer;
+
+
+  
+}
+
+.Barra_div{
+
+      position: absolute;
+      bottom: 0;
+      width: 100vw;
+      text-align: center;
+      color: white;
+
+
+}

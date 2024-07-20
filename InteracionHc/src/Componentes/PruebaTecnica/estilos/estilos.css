@@ -1,0 +1,58 @@
+.Flecha{
+
+    font-size: 2em;
+}
+
+.Pagination{
+    margin-top: 1em;
+    text-align: end;
+}
+.Flecha{
+    cursor: pointer  ;
+    color: gray;
+}
+.flotaLeft{
+    float: right;
+}
+
+
+.bozing{
+    color: red;
+}
+
+.border{
+
+}
+
+.bb { 
+    font-size: 1.4em;cursor: pointer;
+}
+.size , .Heart{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.ContainerModal{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+.classeContainer{
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 1em;
+    color: rgb(15, 15, 15);
+    background-color: #fff;
+    border-radius: 10px;
+ 
+}
+
+.CloseIConos{
+    font-size: 2em;
+    float: right;
+    cursor: pointer;
+}

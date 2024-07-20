@@ -1,0 +1,53 @@
+.MOdalcontainer{
+    width: 70%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+/* .ContainerImagen{
+    
+} */
+ .MOdalcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 15px;
+ }
+ .ContainerImagen{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+     transition: all 0.5s ease;
+    
+ }
+
+ .ModalcontainerSeccion{
+    /* border: 1px solid white; */
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    padding: 1em;
+    z-index: 10000;
+ }
+ .icononext{
+    font-size: 3em;
+ }
+ .ContainerImagen:hover{
+          opacity: 0.7;
+    
+ }
+
+
+ @media screen  and (max-width: 900px) {
+
+   .MOdalcontainer{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+ }
